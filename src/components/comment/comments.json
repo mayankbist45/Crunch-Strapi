@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_comment_comments",
+  "info": {
+    "displayName": "Comments",
+    "icon": "cloud",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "comment": {
+      "type": "text"
+    },
+    "backgroundColor": {
+      "type": "string"
+    }
+  }
+}

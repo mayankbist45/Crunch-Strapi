@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_screens",
+  "info": {
+    "singularName": "home-screen",
+    "pluralName": "home-screens",
+    "displayName": "Home Screen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "commentList": {
+      "displayName": "Comments",
+      "type": "component",
+      "repeatable": true,
+      "component": "comment.comments"
+    },
+    "heading": {
+      "displayName": "Heading",
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.heading"
+    }
+  }
+}

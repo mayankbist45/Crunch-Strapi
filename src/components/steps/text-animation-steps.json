@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_steps_text_animation_steps",
+  "info": {
+    "displayName": "TextAnimationSteps"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

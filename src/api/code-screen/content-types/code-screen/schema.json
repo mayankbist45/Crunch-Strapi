@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "code_screens",
+  "info": {
+    "singularName": "code-screen",
+    "pluralName": "code-screens",
+    "displayName": "CodeScreen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "backgroundCode": {
+      "type": "text"
+    },
+    "modalAnimatedSteps": {
+      "displayName": "TextAnimationSteps",
+      "type": "component",
+      "repeatable": true,
+      "component": "steps.text-animation-steps"
+    }
+  }
+}

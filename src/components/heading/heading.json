@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_heading_headings",
+  "info": {
+    "displayName": "Heading",
+    "icon": "collapse"
+  },
+  "options": {},
+  "attributes": {
+    "line1": {
+      "type": "string"
+    },
+    "line2": {
+      "type": "string"
+    }
+  }
+}
