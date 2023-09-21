@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_components",
+  "info": {
+    "singularName": "blog-component",
+    "pluralName": "blog-components",
+    "displayName": "BlogComponent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "buttonDetials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "blogList": {
+      "displayName": "BlogDetails",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.blog-details"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blog_blog_details",
+  "info": {
+    "displayName": "BlogDetails"
+  },
+  "options": {},
+  "attributes": {
+    "blogName": {
+      "type": "string"
+    },
+    "blogImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "profile": {
+      "displayName": "Profile",
+      "type": "component",
+      "repeatable": false,
+      "component": "profile.profile"
+    }
+  }
+}

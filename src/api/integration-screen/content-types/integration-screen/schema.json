@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "integration_screens",
+  "info": {
+    "singularName": "integration-screen",
+    "pluralName": "integration-screens",
+    "displayName": "IntegrationScreen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "buttonData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "integrationIconsList": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

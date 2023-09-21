@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_profile_profiles",
+  "info": {
+    "displayName": "Profile"
+  },
+  "options": {},
+  "attributes": {
+    "profilePic": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    }
+  }
+}
