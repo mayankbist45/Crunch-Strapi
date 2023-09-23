@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_components",
+  "info": {
+    "singularName": "footer-component",
+    "pluralName": "footer-components",
+    "displayName": "FooterComponent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "productLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button"
+    },
+    "resourceLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button"
+    },
+    "companyLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button"
+    },
+    "iconList": {
+      "displayName": "IconList",
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-array.icon-list"
+    }
+  }
+}

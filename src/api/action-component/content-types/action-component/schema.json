@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "action_components",
+  "info": {
+    "singularName": "action-component",
+    "pluralName": "action-components",
+    "displayName": "ActionComponent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "profile": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.profile"
+    },
+    "rightDivText": {
+      "type": "string"
+    }
+  }
+}

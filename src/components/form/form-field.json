@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_form_form_fields",
+  "info": {
+    "displayName": "FormField",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "optionList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array.array-string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_icon_array_icon_lists",
+  "info": {
+    "displayName": "IconList"
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

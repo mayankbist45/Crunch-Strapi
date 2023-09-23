@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog-component",
     "pluralName": "blog-components",
-    "displayName": "BlogComponent"
+    "displayName": "BlogComponent",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
