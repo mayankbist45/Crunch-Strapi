@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_final_flow_final_flows",
+  "info": {
+    "displayName": "finalFlow"
+  },
+  "options": {},
+  "attributes": {
+    "headerTextData": {
+      "type": "json"
+    },
+    "allCardsData": {
+      "type": "json"
+    }
+  }
+}

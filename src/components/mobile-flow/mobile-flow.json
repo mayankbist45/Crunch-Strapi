@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_mobile_flow_mobile_flows",
+  "info": {
+    "displayName": "mobileFlow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "preFinalFlow": {
+      "displayName": "mobilePreFinalFlow",
+      "type": "component",
+      "repeatable": false,
+      "component": "mobile-pre-final-flow.mobile-pre-final-flow"
+    },
+    "finalFlow": {
+      "displayName": "mobileFinalFlow",
+      "type": "component",
+      "repeatable": false,
+      "component": "mobile-final-flow.mobile-final-flow"
+    }
+  }
+}

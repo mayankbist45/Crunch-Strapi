@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_mobile_initial_flow_mobile_initial_flows",
+  "info": {
+    "displayName": "mobileInitialFlow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerTextData": {
+      "type": "json"
+    }
+  }
+}

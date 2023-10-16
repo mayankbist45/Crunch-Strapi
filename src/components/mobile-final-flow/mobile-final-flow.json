@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_mobile_final_flow_mobile_final_flows",
+  "info": {
+    "displayName": "mobileFinalFlow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerTextData": {
+      "type": "json"
+    }
+  }
+}

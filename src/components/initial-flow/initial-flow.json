@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_initial_flow_initial_flows",
+  "info": {
+    "displayName": "initialFlow"
+  },
+  "options": {},
+  "attributes": {
+    "headerTextData": {
+      "type": "json"
+    }
+  }
+}
